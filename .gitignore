@@ -1,0 +1,82 @@
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+
+# IDEs Y Proyectos
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# Logs Y Depuración
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.tgz
+
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Distribución Y Construcción
+dist/
+build/
+out/
+.temp/
+.parcel-cache/
+.next/
+.nuxt/
+.docusaurus/
+.serverless/
+.fusebox/
+
+# Archivos De Configuración (locales)
+.npmrc
+.env*
+!.env.example
+*.local
+*.pid
+*.pid.lock
+
+# Cobertura Y Pruebas
+coverage/
+*.lcov
+c_output/
+jest-html-reporters-*.html
+jest-results.json
+
+# Archivos Temporales
+*.tmp
+*.temp
+*.bak
+
+# Archivos De Configuración De Herramientas
+.prettierignore
+.eslintcache
+.stylelintcache
+.vite.config.*
+eslint.config.*
+*.tsbuildinfo
+*.map
+
+# Archivos De Bloqueo (si Solo Usas pnpm)
+pnpm-lock.yaml
+
+# Si no Usas Yarn Ni Npm, Elimina Los Siguientes:
+yarn.lock
+package-lock.json
+
+# Git
+*.orig
+
+# Otros
+.DS_Store
+Thumbs.db
